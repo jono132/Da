@@ -52,7 +52,7 @@ logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mdagoan hela \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mWait \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
